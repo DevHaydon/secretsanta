@@ -1,0 +1,14 @@
+{
+    "name": "secret-santa-game",
+    "version": "1.0.0",
+    "description": "A festive Christmas inspired mini-game to reveal a gift card.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Aaron Haydon",
+    "dependencies": {
+        "express": "^4.19.2"
+    }
+
+}

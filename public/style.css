@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 50px;
+    color: #333;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+#game-container {
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+#present {
+    width: 100%;
+    cursor: pointer;
+}
+#card-reveal {
+    margin-top: 20px;
+}
+.hidden {
+    display: none;
+}
+
+.gift-code {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #d32f2f;
+}
