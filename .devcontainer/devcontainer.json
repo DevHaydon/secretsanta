@@ -1,13 +1,14 @@
 {
-    "name": "Xmas GIft Game Dev Container",
+    "name": "Xmas Gift Game Dev Container",
     "image": "mcr.microsoft.com/devcontainers/base:latest",
     "features": {
-        "aws-cli": "latest",
+        "ghcr.io/devcontainers/features/amazon-linux-utils:latest",
+        
         "ghcr.io/devcontainers/features/node:1": {
             "version": "latest"
-
         },
-        "ghcr.io/devcontainers/features/amazon-linux-utils:1": {
+        "aws-cli": "latest",
+        {
  "tools": "ebcli"
         }
     },
